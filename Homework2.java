@@ -25,8 +25,8 @@ public class Homework2 {
 	 * Hint: Search the String class for 'uppercase'
 	 */
 	 public String uppercase() {
-		 string1.toUpperCase();
-		 return string1;
+		 String stringgg = string1.toUpperCase();
+		 return stringgg;
 	 }
 
 
@@ -73,6 +73,7 @@ public class Homework2 {
 	public static void main(String[] args) {
 		Homework2 hw2 = new Homework2("Good Morning, Dave!");
 		System.out.println(hw2.strip("Good Morning, Dave!"));
+		System.out.println(hw2.uppercase().equals("GOOD MORNING, DAVE!"));
 	}
 
 }
