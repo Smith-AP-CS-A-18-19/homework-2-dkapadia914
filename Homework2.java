@@ -24,7 +24,7 @@ public class Homework2 {
 	 * uppercase letters and return the result
 	 * Hint: Search the String class for 'uppercase'
 	 */
-	 public String upperase() {
+	 public String upperCase() {
 		 string1.toUpperCase();
 		 return string1;
 	 }
