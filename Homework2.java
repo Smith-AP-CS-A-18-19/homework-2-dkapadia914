@@ -24,7 +24,7 @@ public class Homework2 {
 	 * uppercase letters and return the result
 	 * Hint: Search the String class for 'uppercase'
 	 */
-	 public String upperCase() {
+	 public String uppercase() {
 		 string1.toUpperCase();
 		 return string1;
 	 }
@@ -38,11 +38,11 @@ public class Homework2 {
 	 * Hint: Search the String class for 'replace'
 	 */
 	 public String strip(String string3) {
-		 string3.replace(" ","");
-		 string3.replace(",","");
-		 string3.replace(".","");
-		 string3.replace("!","");
-		 return string3;
+		 String difString1 = string3.replace(" ","");
+		 String difString2 = difString1.replace(",","");
+		 String difString3 = difString2.replace(".","");
+		 String difString4 = difString3.replace("!","");
+		 return difString4;
 	 }
 
 
@@ -71,7 +71,8 @@ public class Homework2 {
 
 	}
 	public static void main(String[] args) {
-		Homework2 Dev = new Homework2("I Love Pie");
+		Homework2 hw2 = new Homework2("Good Morning, Dave!");
+		System.out.println(hw2.strip("Good Morning, Dave!"));
 	}
 
 }
